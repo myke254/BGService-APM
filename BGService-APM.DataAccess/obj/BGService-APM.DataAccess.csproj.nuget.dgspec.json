@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {}
+    "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
+    "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj",
         "projectName": "BGService-APM.DataAccess",
-        "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\MICHAEL.MAINA1\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MICHAEL.MAINA1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/ICT-DevOps/Omni-Channel/_packaging/OmniChannel/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -41,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[8.0.0, )"

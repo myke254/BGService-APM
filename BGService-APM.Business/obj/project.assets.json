@@ -2,6 +2,25 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -191,6 +210,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
           "Microsoft.Extensions.Http": "8.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
@@ -204,6 +224,36 @@
     }
   },
   "libraries": {
+    "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
+      "sha512": "3KuSxeHoNYdxVYfg2IRZCThcrlJ1XJqIXkAWikCsbm5C/bCjv7G0WoKDyuR98Q+T607QT2Zl5GsbGRkENcV2yQ==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Caching.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Caching.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
       "sha512": "3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
       "type": "package",
@@ -578,19 +628,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MICHAEL.MAINA1\\.nuget\\packages\\": {}
+    "C:\\Users\\Michael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj",
       "projectName": "BGService-APM.Business",
-      "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj",
-      "packagesPath": "C:\\Users\\MICHAEL.MAINA1\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\obj\\",
+      "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj",
+      "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MICHAEL.MAINA1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -598,15 +648,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/ICT-DevOps/Omni-Channel/_packaging/OmniChannel/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
-              "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj"
+            "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj"
             }
           }
         }

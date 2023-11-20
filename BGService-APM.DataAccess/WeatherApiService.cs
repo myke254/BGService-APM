@@ -33,7 +33,6 @@ namespace BGService_APM.DataAccess
             OpenWeatherMapResponse openWeatherMapResponse;
             try
             {
-                // Attempt to deserialize the JSON response into a WeatherModel object
                 openWeatherMapResponse = JsonConvert.DeserializeObject<OpenWeatherMapResponse>(jsonResponse);
             }
             catch (JsonException ex)

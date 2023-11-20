@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BGService_APM.DataAccess.models
+﻿namespace BGService_APM.DataAccess.models
 {
     public class OpenWeatherMapResponse
     {

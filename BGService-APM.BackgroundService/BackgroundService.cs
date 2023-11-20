@@ -1,24 +1,23 @@
-﻿using BGService_APM.DataAccess;
+﻿using BGService_APM.Business;
 using BGService_APM.DataAccess.models;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using System.Text.Json.Serialization;
-
 namespace BGService_APM.BackgroundService
 {
 
     public class WeatherWorkerService : Microsoft.Extensions.Hosting.BackgroundService
     {
         private readonly ILogger<WeatherWorkerService> _logger;
-        private readonly WeatherApiService _weatherApiService;
+        private readonly IWeatherService _weatherService;
+
 
         public WeatherWorkerService(
             ILogger<WeatherWorkerService> logger,
-            WeatherApiService weatherApiService
+            IWeatherService weatherService
             )
         {
             _logger = logger;
-            _weatherApiService = weatherApiService;
+            _weatherService = weatherService;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -28,9 +27,8 @@ namespace BGService_APM.BackgroundService
                 try
                 {
                     string cityName = "Nairobi";
-                    OpenWeatherMapResponse weatherData = await _weatherApiService.GetWeatherDataAsync(cityName);
+                    OpenWeatherMapResponse weatherData = await _weatherService.GetWeatherData(cityName);
                     _logger.LogInformation($"Weather Data:: {JsonConvert.SerializeObject(weatherData)}");
-                   // Wait for 5 minutes before fetching again
                     await Task.Delay(TimeSpan.FromMinutes(5), stoppingToken);
                 }
                 catch (Exception ex)

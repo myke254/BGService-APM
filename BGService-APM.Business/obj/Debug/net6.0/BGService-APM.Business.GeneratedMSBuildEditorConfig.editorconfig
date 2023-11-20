@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BGService_APM.Business
-build_property.ProjectDir = d:\source\repos\BGService-APM\BGService-APM.Business\
+build_property.ProjectDir = c:\Users\Michael\source\repos\BGService-APM\BGService-APM.Business\

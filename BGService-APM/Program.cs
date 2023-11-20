@@ -1,6 +1,7 @@
 using BGService_APM.BackgroundService;
 using BGService_APM.Business;
 using BGService_APM.DataAccess;
+using BGService_APM.DataAccess.cache;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient<WeatherApiService>();
-builder.Services.AddTransient<WeatherService>();
+builder.Services.AddTransient<IWeatherService, WeatherService>();
+builder.Services.AddSingleton<ICacheManager, CacheManager>();
 builder.Services.AddHostedService<WeatherWorkerService>();
+builder.Services.AddMemoryCache();
+
 
 var app = builder.Build();
 

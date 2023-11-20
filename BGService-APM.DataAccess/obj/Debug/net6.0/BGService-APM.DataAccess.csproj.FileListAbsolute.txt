@@ -1,0 +1,12 @@
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\bin\Debug\net6.0\BGService-APM.DataAccess.deps.json
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\bin\Debug\net6.0\BGService-APM.DataAccess.dll
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\bin\Debug\net6.0\BGService-APM.DataAccess.pdb
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\obj\Debug\net6.0\BGService-APM.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\obj\Debug\net6.0\BGService-APM.DataAccess.AssemblyInfoInputs.cache
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\obj\Debug\net6.0\BGService-APM.DataAccess.AssemblyInfo.cs
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\obj\Debug\net6.0\BGService-APM.DataAccess.csproj.CoreCompileInputs.cache
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\obj\Debug\net6.0\BGService-APM.DataAccess.dll
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\obj\Debug\net6.0\refint\BGService-APM.DataAccess.dll
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\obj\Debug\net6.0\BGService-APM.DataAccess.pdb
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\obj\Debug\net6.0\ref\BGService-APM.DataAccess.dll
+D:\source\repos\BGService-APM\BGService-APM.DataAccess\obj\Debug\net6.0\BGService-APM.DataAccess.csproj.AssemblyReference.cache

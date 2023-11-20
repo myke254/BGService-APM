@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KAgI5BeW7ivKJQ+9dqUMOw7s6B7iUEN3jX9T3a2w/NM=",
+  "Source": "BGService-APM.Api",
+  "BasePath": "_content/BGService-APM.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

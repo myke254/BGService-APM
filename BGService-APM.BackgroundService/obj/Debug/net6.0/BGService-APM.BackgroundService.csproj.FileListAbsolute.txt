@@ -1,0 +1,15 @@
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\bin\Debug\net6.0\BGService-APM.BackgroundService.deps.json
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\bin\Debug\net6.0\BGService-APM.BackgroundService.dll
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\bin\Debug\net6.0\BGService-APM.BackgroundService.pdb
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\bin\Debug\net6.0\BGService-APM.DataAccess.dll
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\bin\Debug\net6.0\BGService-APM.DataAccess.pdb
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundService.csproj.AssemblyReference.cache
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundService.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundService.AssemblyInfoInputs.cache
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundService.AssemblyInfo.cs
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundService.csproj.CoreCompileInputs.cache
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundService.csproj.CopyComplete
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundService.dll
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\refint\BGService-APM.BackgroundService.dll
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundService.pdb
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\ref\BGService-APM.BackgroundService.dll

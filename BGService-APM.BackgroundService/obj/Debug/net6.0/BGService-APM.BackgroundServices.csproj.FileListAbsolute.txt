@@ -1,0 +1,5 @@
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundServices.csproj.AssemblyReference.cache
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundServices.AssemblyInfoInputs.cache
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundServices.AssemblyInfo.cs
+D:\source\repos\BGService-APM\BGService-APM.BackgroundService\obj\Debug\net6.0\BGService-APM.BackgroundServices.csproj.CoreCompileInputs.cache

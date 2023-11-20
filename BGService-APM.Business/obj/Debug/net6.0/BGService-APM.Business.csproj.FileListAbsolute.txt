@@ -1,0 +1,15 @@
+D:\source\repos\BGService-APM\BGService-APM.Business\bin\Debug\net6.0\BGService-APM.Business.deps.json
+D:\source\repos\BGService-APM\BGService-APM.Business\bin\Debug\net6.0\BGService-APM.Business.dll
+D:\source\repos\BGService-APM\BGService-APM.Business\bin\Debug\net6.0\BGService-APM.Business.pdb
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\BGService-APM.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\BGService-APM.Business.AssemblyInfoInputs.cache
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\BGService-APM.Business.AssemblyInfo.cs
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\BGService-APM.Business.csproj.CoreCompileInputs.cache
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\BGService-APM.Business.dll
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\refint\BGService-APM.Business.dll
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\BGService-APM.Business.pdb
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\ref\BGService-APM.Business.dll
+D:\source\repos\BGService-APM\BGService-APM.Business\bin\Debug\net6.0\BGService-APM.DataAccess.dll
+D:\source\repos\BGService-APM\BGService-APM.Business\bin\Debug\net6.0\BGService-APM.DataAccess.pdb
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\BGService-APM.Business.csproj.AssemblyReference.cache
+D:\source\repos\BGService-APM\BGService-APM.Business\obj\Debug\net6.0\BGService-APM.Business.csproj.CopyComplete

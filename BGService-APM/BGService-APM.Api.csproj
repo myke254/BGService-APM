@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>BGService_APM.Api</RootNamespace>
+    <UserSecretsId>acea9137-a88d-43c7-840e-f2ad489bbdff</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BGService-APM.BackgroundService\BGService-APM.BackgroundService.csproj" />
+    <ProjectReference Include="..\BGService-APM.Business\BGService-APM.Business.csproj" />
+    <ProjectReference Include="..\BGService-APM.DataAccess\BGService-APM.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

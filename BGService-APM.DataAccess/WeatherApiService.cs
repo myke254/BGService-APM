@@ -1,5 +1,6 @@
 ﻿using BGService_APM.DataAccess.models;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
 namespace BGService_APM.DataAccess
@@ -8,11 +9,13 @@ namespace BGService_APM.DataAccess
     {
         private readonly HttpClient _httpClient;
         private readonly IConfiguration _configuration;
+        private readonly ILogger<WeatherApiService> _logger;
 
-        public WeatherApiService(HttpClient httpClient, IConfiguration configuration)
+        public WeatherApiService(HttpClient httpClient, IConfiguration configuration, ILogger<WeatherApiService> logger)
         {
             _httpClient = httpClient;
             _configuration = configuration;
+            _logger = logger;
         }
 
         public async Task<OpenWeatherMapResponse> GetWeatherDataAsync(string cityName)
@@ -22,25 +25,31 @@ namespace BGService_APM.DataAccess
             string apiUrl = $"https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={apiKey}";
 
             HttpResponseMessage response = await _httpClient.GetAsync(apiUrl);
-            response.EnsureSuccessStatusCode();
+            //response.EnsureSuccessStatusCode();
             string jsonResponse =  await response.Content.ReadAsStringAsync();
-            // Handle the possibility of null or empty response
             if (string.IsNullOrEmpty(jsonResponse))
             {
+                _logger.LogCritical($"Something went wrong. no response received");
                 throw new Exception("Empty or null response from the OpenWeatherMap API.");
             }
+            if (JsonConvert.DeserializeObject<Dictionary<string, dynamic>>(jsonResponse)!.TryGetValue("cod", out dynamic? codValue))
+            {
 
+                if (codValue != 200)
+                {
+                    _logger.LogError($"Check Details:: {jsonResponse}");
+                    throw new Exception($"Something went wrong {jsonResponse}");
+                }
+            }
             OpenWeatherMapResponse openWeatherMapResponse;
             try
             {
-                openWeatherMapResponse = JsonConvert.DeserializeObject<OpenWeatherMapResponse>(jsonResponse);
+                openWeatherMapResponse = JsonConvert.DeserializeObject<OpenWeatherMapResponse>(jsonResponse)!;
             }
             catch (JsonException ex)
             {
-                // Handle JSON deserialization errors
                 throw new Exception("Error deserializing OpenWeatherMap API response.", ex);
             }
-            // Check if deserialization was successful
             if (openWeatherMapResponse == null)
             {
                 throw new Exception("Unable to deserialize OpenWeatherMap API response.");

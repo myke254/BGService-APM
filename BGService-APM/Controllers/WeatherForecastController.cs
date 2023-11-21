@@ -9,7 +9,7 @@ namespace BGService_APM.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-      
+
         private readonly ILogger<WeatherForecastController> _logger;
         private readonly IWeatherService _weatherService;
         private readonly ICacheManager _cacheManager;
@@ -25,27 +25,14 @@ namespace BGService_APM.Controllers
         {
             try
             {
-                // Attempt to retrieve weather data from the cache
-                OpenWeatherMapResponse? weatherData = await _cacheManager.GetAsync<OpenWeatherMapResponse>(cityName);
 
-                if (weatherData != null)
-                {
-                    // If data is found in the cache, return it
-                    return Ok(weatherData);
-                }
-                else
-                {
-                    // If not found in the cache, fetch from the API
-                    weatherData = await _weatherService.GetWeatherData(cityName);
+                OpenWeatherMapResponse openWeatherMapResponse = await _weatherService.GetWeatherData(cityName);
+                return Ok(openWeatherMapResponse);
 
-                    // The data is already stored in the cache by the WeatherApiService
-                    return Ok(weatherData);
-                }
             }
             catch (Exception ex)
             {
-                // Handle exceptions appropriately
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"An exception occurred: {ex.Message}");
             }
         }
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM\\BGService-APM.Api.csproj": {}
+    "D:\\source\\repos\\BGService-APM\\BGService-APM\\BGService-APM.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj": {
+    "D:\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj",
+        "projectUniqueName": "D:\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj",
         "projectName": "BGService-APM.BackgroundService",
-        "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj",
-        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\obj\\",
+        "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj",
+        "packagesPath": "C:\\Users\\MICHAEL.MAINA1\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MICHAEL.MAINA1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,17 +22,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ICT-DevOps/Omni-Channel/_packaging/OmniChannel/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj": {
-                "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj"
+              "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj": {
+                "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj"
               },
-              "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj"
+              "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
+                "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj"
               }
             }
           }
@@ -80,17 +81,17 @@
         }
       }
     },
-    "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj": {
+    "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj",
+        "projectUniqueName": "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj",
         "projectName": "BGService-APM.Business",
-        "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj",
-        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\obj\\",
+        "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj",
+        "packagesPath": "C:\\Users\\MICHAEL.MAINA1\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MICHAEL.MAINA1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,14 +99,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ICT-DevOps/Omni-Channel/_packaging/OmniChannel/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj"
+              "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
+                "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj"
               }
             }
           }
@@ -145,17 +147,17 @@
         }
       }
     },
-    "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
+    "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj",
+        "projectUniqueName": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj",
         "projectName": "BGService-APM.DataAccess",
-        "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\obj\\",
+        "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\MICHAEL.MAINA1\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MICHAEL.MAINA1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -163,7 +165,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ICT-DevOps/Omni-Channel/_packaging/OmniChannel/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -214,17 +217,17 @@
         }
       }
     },
-    "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM\\BGService-APM.Api.csproj": {
+    "D:\\source\\repos\\BGService-APM\\BGService-APM\\BGService-APM.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM\\BGService-APM.Api.csproj",
+        "projectUniqueName": "D:\\source\\repos\\BGService-APM\\BGService-APM\\BGService-APM.Api.csproj",
         "projectName": "BGService-APM.Api",
-        "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM\\BGService-APM.Api.csproj",
-        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM\\obj\\",
+        "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM\\BGService-APM.Api.csproj",
+        "packagesPath": "C:\\Users\\MICHAEL.MAINA1\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\BGService-APM\\BGService-APM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MICHAEL.MAINA1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,20 +235,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ICT-DevOps/Omni-Channel/_packaging/OmniChannel/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj": {
-                "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj"
+              "D:\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj": {
+                "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.BackgroundService\\BGService-APM.BackgroundService.csproj"
               },
-              "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj": {
-                "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj"
+              "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj": {
+                "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.Business\\BGService-APM.Business.csproj"
               },
-              "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Michael\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj"
+              "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj": {
+                "projectPath": "D:\\source\\repos\\BGService-APM\\BGService-APM.DataAccess\\BGService-APM.DataAccess.csproj"
               }
             }
           }
